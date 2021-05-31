@@ -25,6 +25,11 @@
   padding: 20px;
 }
 
+.SmallCardMainWrapper h6 {
+  text-align: left;
+  color: #fff;
+}
+
 /* Reporting Card */
 .ReportingCardMainWrapper {
   background-color: #ffff;
@@ -97,4 +102,8 @@
   text-align: center;
   font-size: 13px;
   font-style: normal;
+}
+
+.lineChart {
+  height: 40px;
 }

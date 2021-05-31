@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row } from "reactstrap";
+import LineChart from "../LineCharts/LineChart";
 import "./Cards.css";
 
 const ReportingCard = (props) => {
@@ -14,7 +15,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
@@ -32,7 +35,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
@@ -50,7 +55,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
@@ -68,7 +75,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
@@ -86,7 +95,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
@@ -104,7 +115,9 @@ const ReportingCard = (props) => {
           </div>
         </Col>
         <Col sm="6" md="6">
-          <div></div>
+          <div className="lineChart">
+            <LineChart />
+          </div>
         </Col>
 
         <Col sm="2" md="2">
