@@ -1,0 +1,12 @@
+.mainWrapper {
+  margin: 10px;
+}
+
+.cardWrapper {
+  display: inline-block;
+  max-width: calc(25%);
+}
+
+.RightDivCard {
+  background-color: #000 !important;
+}

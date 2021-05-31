@@ -1,0 +1,100 @@
+/* Index */
+.MainWrapper {
+  background-color: #cbdeca;
+  margin: 30px 10px;
+}
+.SecondryWrapper {
+  margin: 30px 10px;
+}
+
+/* Small Cards */
+.SmallCardMainWrapper {
+  background-color: #000000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SmallCardSecondryWrapper {
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Reporting Card */
+.ReportingCardMainWrapper {
+  background-color: #ffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 350px;
+  border-radius: 6px;
+  padding: 1.5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ReportingCardMainWrapper h2 {
+  text-align: left;
+}
+.ReportingCardMainWrapper h3 {
+  text-align: left;
+}
+
+.ReportingCardMainWrapper h4 {
+  text-align: left;
+}
+.ReportingCardMainWrapper h5 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.ReportingCardMainWrapper h6 {
+  text-align: left;
+}
+.ReportingCardMainWrapper p {
+  text-align: left;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.ReportingCardMainWrapper button {
+  background-color: #551f87;
+  color: #ffff;
+}
+
+.ReportingCardMainWrapper button:hover {
+  background-color: #fff;
+  color: #551f87;
+}
+
+.StatusCardMainWrapper {
+  background-color: #ffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  height: 250px;
+  border-radius: 6px;
+  padding: 1.5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.StatusCardMainWrapper h4 {
+  text-align: left;
+}
+
+.StatusCardMainWrapper h5 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.StatusCardMainWrapper p {
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+}
